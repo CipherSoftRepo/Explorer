@@ -1,0 +1,62 @@
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .toolbarNav {
+    height: 6vh;
+    max-height: 64px;
+  }
+
+  .filesTable {
+    height: 100%;
+
+    .searchDiv {
+      text-align: right;
+      margin-right: 15px;
+
+      .search {
+        width: auto;
+        margin: 10px;
+        border: solid 1px lightgray;
+      }
+    }
+
+    th {
+      font-weight: 600 !important;
+      font-size: x-large !important;
+    }
+
+    td {
+      font-family: Arial, Helvetica, sans-serif !important;
+      font-size: medium !important;
+      font-weight: 600 !important;
+    }
+
+    .fileNameCell {
+      min-width: 10vw;
+      max-width: 25vw;
+    }
+
+    .fileActionCell {
+      cursor: pointer;
+    }
+
+    .addActionCell {
+      cursor: pointer;
+      span {
+        font-size: 40px !important;
+      }
+
+      .addText {
+        font-size: 30px !important;
+      }
+    }
+  }
+
+  .validation-msg {
+    color: red;
+    font-weight: normal;
+    font-size: 14px;
+  }
+}

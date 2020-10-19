@@ -1,0 +1,15 @@
+We are interested in creating a large-scale browser-based file system, functionally
+similar to Dropbox’s web interface, or to a folder browsing structure you might find
+on a Windows or macOS device. A user should be able to:
+	- Create folders and subfolders
+	- Create new files in the folders
+	- Search files by its exact name within a parent folder or across all files
+List the top 10 files that start with a search string.
+Only “start with” logic is required.
+	- Delete folders and files
+	
+For the purpose of this exercise, you can assume that a file is simply its name and
+does not contain any other content.
+API service should use a SQL or noSQL database ( of your choice!).
+Provide a README with instructions on how to deploy your application.
+
